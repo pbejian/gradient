@@ -1,4 +1,4 @@
-### Descente de gradient pour une régression linéaire (univariée)
+# Descente de gradient pour une régression linéaire (univariée)
 
 On travaille sur une régression linéaire dont les valeurs d'entrainement sont les suivantes :
 
