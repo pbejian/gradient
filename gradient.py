@@ -137,8 +137,7 @@ espace(2)
 
 st.write("""
 📝 Sources de l'application :
-[https://github.com/pbejian/regression_simple](https://github.com/pbejian/regression_simple)
-
+[https://github.com/pbejian/gradient](https://github.com/pbejian/gradient)
 """)
 
 #-------------------------------------------------------------------------------

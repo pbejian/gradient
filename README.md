@@ -1,5 +1,10 @@
 # Descente de gradient pour une régression linéaire (univariée)
 
+L'application est exécutable en ligne à l'adresse suivante :
+
+🚀 [https://https://pbejian-gradient-gradient-uiu2uv.streamlitapp.com/](https://pbejian-gradient-gradient-uiu2uv.streamlitapp.com/).
+
+
 On travaille sur une régression linéaire dont les valeurs d'entrainement sont les suivantes :
 
 $$
