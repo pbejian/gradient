@@ -16,7 +16,7 @@ Y = (3.165, 6.047, 4.831, 8.790, 9.266, 14.059, 17.403, 21.370, 21.400, 27.870)
 $$
 
 
-La ***fonction de coût*** que l'on doit minimiser est la suivante :
+La **fonction de coût** que l'on doit minimiser est la suivante :
 
 $$
 J(w,b) = \dfrac{1}{m} \sum_{k=1}^m  \big((wx_i + b) - y_i\big) ^2
@@ -39,7 +39,7 @@ $$
 b := b -\alpha \dfrac{\partial J}{\partial b}(w,b)
 $$
 
-où ⍺ est un paramètre appelé *learning rate**. Le nombre d'itération ainsi que ⍺ sont des **« hyperparamètres »** qu'il convient de choisir judicieusement (c'est à dire ?). Il faut aussi donner une valeurs initiales à w et b. Sauf raison particulière, on peut prendre w =0 et b=0.  
+où ⍺ est un paramètre appelé **learning rate**. Le nombre d'itération ainsi que ⍺ sont des **« hyperparamètres »** qu'il convient de choisir judicieusement (c'est à dire ?). Il faut aussi donner une valeurs initiales à w et b. Sauf raison particulière, on peut prendre w =0 et b=0.  
 
 Voici la dérivée partielle de J par rapport à w :
 
@@ -54,4 +54,4 @@ $$
 $$
 
 
-**Remarque --** Dans cette version de l'algorithme de descente de gradient on utilise plusieurs boucles `for`. Pour être efficace si l'on a beaucoup de données, il serait judicieux de « vectoriser » les calculs.
+**Remarque -** Dans cette version de l'algorithme de descente de gradient on utilise plusieurs boucles `for`. Pour être efficace si l'on a beaucoup de données, il serait judicieux de « vectoriser » les calculs.
