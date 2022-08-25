@@ -29,7 +29,7 @@ $$
 f(x) = wx + b
 $$
 
-où les coefficients w et b sont les valeurs qui minimisent la fonction de coût. Pour calculer ces deux coeffi⍺cients on utilise l'algorithme de ***descente de gradient*** qui consiste à répéter les calculs suivants (boucle `for` ou `while`) :
+où les coefficients w et b sont les valeurs qui minimisent la fonction de coût. Pour calculer ces deux coefficients on utilise l'algorithme de **descente de gradient** qui consiste à répéter les calculs suivants (boucle `for` ou `while`) :
 
 $$
 w := w -\alpha \dfrac{\partial J}{\partial w}(w,b) \\\\
@@ -39,7 +39,7 @@ $$
 b := b -\alpha \dfrac{\partial J}{\partial b}(w,b)
 $$
 
-où ⍺ est un paramètre appelé ***learning rate***. Le nombre d'itération ainsi que ⍺ sont des « hyperparamètres » qu'il convient de choisir judicieusement (c'est à dire ?). Il faut aussi donner une valeurs initiales à w et b. Sauf raison particulière, on peut prendre w =0 et b=0.  
+où ⍺ est un paramètre appelé *learning rate**. Le nombre d'itération ainsi que ⍺ sont des **« hyperparamètres »** qu'il convient de choisir judicieusement (c'est à dire ?). Il faut aussi donner une valeurs initiales à w et b. Sauf raison particulière, on peut prendre w =0 et b=0.  
 
 Voici la dérivée partielle de J par rapport à w :
 
