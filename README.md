@@ -29,7 +29,7 @@ $$
 f(x) = wx + b
 $$
 
-où les coefficients $w$ et $b$ sont les valeurs qui minimisent la fonction de coût. Pour calculer ces deux coefficients on utilise l'algorithme de ***descente de gradient*** qui consiste à répéter les calculs suivants (boucle $\texttt{for}$ ou $\texttt{while}$) :
+où les coefficients $`w`$ et $`b`$ sont les valeurs qui minimisent la fonction de coût. Pour calculer ces deux coefficients on utilise l'algorithme de ***descente de gradient*** qui consiste à répéter les calculs suivants (boucle $\texttt{for}$ ou $\texttt{while}$) :
 
 $$
 w := w -\alpha \dfrac{\partial J}{\partial w}(w,b) \\\\
