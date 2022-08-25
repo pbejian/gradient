@@ -29,7 +29,7 @@ $$
 f(x) = wx + b
 $$
 
-où les coefficients $`w`$ et $`b`$ sont les valeurs qui minimisent la fonction de coût. Pour calculer ces deux coefficients on utilise l'algorithme de ***descente de gradient*** qui consiste à répéter les calculs suivants (boucle $\texttt{for}$ ou $\texttt{while}$) :
+où les coefficients w et b sont les valeurs qui minimisent la fonction de coût. Pour calculer ces deux coeffi⍺cients on utilise l'algorithme de ***descente de gradient*** qui consiste à répéter les calculs suivants (boucle `for` ou `while`) :
 
 $$
 w := w -\alpha \dfrac{\partial J}{\partial w}(w,b) \\\\
@@ -39,19 +39,19 @@ $$
 b := b -\alpha \dfrac{\partial J}{\partial b}(w,b)
 $$
 
-où $\alpha$ est un paramètre appelé ***learning rate***. Le nombre d'itération ainsi que $\alpha$ sont des « hyperparamètres » qu'il convient de choisir judicieusement (c'est à dire ?). Il faut aussi donner une valeurs initiales à $w$ et $b$. Sauf raison particulière, on peut prendre $w =0$ et $b=0$.  
+où ⍺ est un paramètre appelé ***learning rate***. Le nombre d'itération ainsi que ⍺ sont des « hyperparamètres » qu'il convient de choisir judicieusement (c'est à dire ?). Il faut aussi donner une valeurs initiales à w et b. Sauf raison particulière, on peut prendre w =0 et b=0.  
 
-Voici la dérivée partielle de $J$ par rapport à $w$ :
+Voici la dérivée partielle de J par rapport à w :
 
 $$
 \dfrac{\partial J}{\partial w}(w,b) = \frac{1}{m} \sum_{k=1}^m  2\big((wx_i + b) - y_i\big) \times x_i
 $$
 
-Puis celle par rapport à $b$ :
+Puis celle par rapport à b :
 
 $$
 \dfrac{\partial J}{\partial w}(w,b) = \frac{1}{m} \sum_{k=1}^m  2\big((wx_i + b) - y_i\big)
 $$
 
 
-**Remarque --** Dans cette version de l'algorithme de descente de gradient on utilise plusieurs boucles $\texttt{for}$. Pour être efficace si l'on a beaucoup de données, il serait judicieux de « vectoriser » les calculs.
+**Remarque --** Dans cette version de l'algorithme de descente de gradient on utilise plusieurs boucles `for`. Pour être efficace si l'on a beaucoup de données, il serait judicieux de « vectoriser » les calculs.
