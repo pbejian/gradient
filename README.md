@@ -2,7 +2,7 @@
 
 L'application est exécutable en ligne à l'adresse suivante :
 
-🚀 [https://https://pbejian-gradient-gradient-uiu2uv.streamlitapp.com/](https://pbejian-gradient-gradient-uiu2uv.streamlitapp.com/).
+🚀 [https://pbejian-gradient-app-90m6ms.streamlitapp.com/](https://pbejian-gradient-app-90m6ms.streamlitapp.com/).
 
 
 On travaille sur une régression linéaire dont les valeurs d'entrainement sont les suivantes :
